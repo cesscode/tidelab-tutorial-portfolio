@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    padding: 100px 200px;
+    background-color: #358597;
+    margin: 20px;
+    transition: 0.3s ease;
+    border-top-left-radius: 100px;
+
+}
+
+.hello h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+    text-transform: uppercase;
+
+}
+
+.hello p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input:hover {
+    font-weight: 900;
+}
+
+/* input [type="email"] {
+    background-color: red;
+} */
+
+input:hover {
+    background-color: #358597;
+    color: yellow;
+}
+
+button {
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+button:hover {
+    font-weight: 900;
+    background-color: #358597;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 980px) {
+    .contact {
+        padding: 100px 200px;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    
+    /*SKILL SECTION  */
+    
+    .contact {
+         /* display: flex; */
+         padding: 100px 50px;
+     }
+
+     .hello h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    
+    }
+}

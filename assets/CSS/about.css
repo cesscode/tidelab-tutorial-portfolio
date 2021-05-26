@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ABOUT STYLING */
+
+.about {
+    padding: 100px 200px;
+    background-color: #358597;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+.about-image {
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.about-image img {
+    height: 200px;
+    width: 100%;
+}
+
+.about-me {
+    margin-top: 25px;
+    line-height: 20px;
+    /* font-weight: 700; */
+    font-size: 20px;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 980px) {
+    .about {
+        padding: 100px 200px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    
+    /*SKILL SECTION  */
+    
+    .about {
+         /* display: flex; */
+         padding: 100px 50px;
+     }
+}
+
